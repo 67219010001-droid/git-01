@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ประวัติส่วนตัว</title>
+  <!-- ลิงก์ Tailwind CSS ผ่าน CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-600 text-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">ประวัติส่วนตัว</h1>
+      <ul class="flex space-x-4">
+        <li><a href="#about" class="hover:underline">เกี่ยวกับฉัน</a></li>
+        <li><a href="#education" class="hover:underline">การศึกษา</a></li>
+        <li><a href="#contact" class="hover:underline">ติดต่อ</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Body Content -->
+  <main class="container mx-auto px-4 py-10">
+
+    <section id="about" class="mb-10">
+  <h2 class="text-2xl font-semibold text-blue-700 mb-4">เกี่ยวกับฉัน</h2>
+  <div class="bg-white p-6 rounded-lg shadow flex flex-col md:flex-row items-center space-x-0 md:space-x-6">
+    <!-- รูปภาพ -->
+    <img src="1.jpg" alt="-" class="w-32 h-32 rounded-full object-cover mb-4 md:mb-0">
+    <img src="images/1.jpg" alt="รูปโปรไฟล์" class="w-32 h-32 rounded-full">
+    
+    <!-- ข้อมูล -->
+    <div>
+      <p> สวัสดีค่ะ! ฉันชื่อ <strong>นางสาวกนกอรวรรณ บัวสงเคราะห์</strong>  ปวช2 แผนกเทคโนโลยีสาระสนเทศ IT
+             วิทยาลัยเทคนิคเลย</p>
+      <p>ฉันสนใจในการเขียนโปรแกรม การออกแบบ และการเรียนรู้สิ่งใหม่ ๆ💻 🖥️ 🖱️</p>
+    </div>
+  </div>
+</section>
+
+
+    <!-- การศึกษา -->
+    <section id="education" class="mb-10">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-4"> 📚ประวัติการศึกษา</h2>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <ul class="list-disc list-inside space-y-2">
+          <li>ประถมศึกษา: โรงเรียนหฤทัยคริสเตียน</li>
+          <li>มัธยมต้น: โรงเรียนศรีสงครามวิทยา</li>
+          <li>ปัจจุบัน: วิทยาลัยเทคนิคเลย</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ติดต่อ -->
+    <section id="contact">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-4">ช่องทางการติดต่อ</h2>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <p>📧อีเมล: 67219010001@loeitech.ac.th</p>
+        <p>📞เบอร์โทร: 0611549887</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center py-4">
+    <p>&copy; 2025 กนกอรวรรณ บัวสงเคราะห์. สงวนลิขสิทธิ์</p>
+  </footer>
+
+</body>
+</html>
